@@ -1,0 +1,28 @@
+nav {
+    float: right;
+}
+
+main {
+    background-color: white;
+}
+
+body {
+    background-image: url("m5_bg.jpg");
+    background-color: #cccccc;
+}
+
+aside {
+    width: 30%;
+    padding-left: 15px;
+    float: right;
+    background-color: white;
+}
+
+footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: darkolivegreen;
+    color: white;
+    text-align: center;
+}
