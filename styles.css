@@ -6,9 +6,21 @@ main {
     background-color: white;
 }
 
+h1 {
+    display: inline-block;
+    background-color:darkolivegreen;
+    border-bottom: 5px solid black;
+    border-color: black;
+}
+
 body {
     background-image: url("m5_bg.jpg");
     background-color: #cccccc;
+    margin: auto;
+    width: 50%;
+    border: 2px darkolivegreen;
+    padding: 15px;
+    float: left;
 }
 
 aside {
