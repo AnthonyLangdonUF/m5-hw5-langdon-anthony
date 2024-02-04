@@ -1,33 +1,59 @@
-nav {
-    float: right;
-}
-
 main {
     background-color: white;
 }
 
+header {
+    font-size: 25px;
+    overflow: hidden;
+    color: darkkhaki;
+    background-color: white;
+    margin: 10px;
+}
+
+header > nav {
+    float: right;
+    font-size: 18px;
+    display: block;
+    text-align: center;
+    padding: 10px 12px;
+    text-decoration: none;
+}
+
 h1 {
-    display: inline-block;
-    background-color:darkolivegreen;
+    padding: 8px;
     border-bottom: 5px solid black;
     border-color: black;
 }
 
+span {
+    background-color: darkolivegreen;
+    padding: 8px;
+}
+
 body {
-    background-image: url("m5_bg.jpg");
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;background-image: url("m5_bg.jpg");
     background-color: #cccccc;
-    margin: auto;
-    width: 50%;
-    border: 2px darkolivegreen;
-    padding: 15px;
     float: left;
 }
 
+body > main {
+    width: 50%;
+    border: 2px darkolivegreen;
+    padding: 15px;
+    margin-left: 15%;
+}
+
 aside {
-    width: 30%;
-    padding-left: 15px;
+    padding: 15px;
     float: right;
     background-color: white;
+    border: 0;
+}
+
+.img-shadow {
+    margin-top: 20px;
+    filter: drop-shadow(8px 8px 8px #1c211e);
 }
 
 footer {
