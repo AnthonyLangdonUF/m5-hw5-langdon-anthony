@@ -1,5 +1,21 @@
+/* unvisited link */
+a:link {
+    color: black;
+}
+
+/* visited link */
+a:visited {
+    color: black;
+}
+
+/* mouse over link */
+a:hover {
+    color: #2d402d;
+}
+
 main {
     background-color: white;
+    float: left;
 }
 
 header {
@@ -20,6 +36,12 @@ header > nav {
 }
 
 h1 {
+    padding: 8px;
+    border-bottom: 5px solid black;
+    border-color: black;
+}
+
+h2 {
     padding: 8px;
     border-bottom: 5px solid black;
     border-color: black;
@@ -46,9 +68,9 @@ body > main {
 
 aside {
     padding: 15px;
-    float: right;
+    float: left;
     background-color: white;
-    border: 0;
+    margin-left: 10px;
 }
 
 .img-shadow {
@@ -63,4 +85,6 @@ footer {
     background-color: darkolivegreen;
     color: white;
     text-align: center;
+    float: left;
+    position: fixed;
 }
