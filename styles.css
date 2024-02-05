@@ -35,6 +35,11 @@ header > nav {
     text-decoration: none;
 }
 
+img {
+    float: left;
+    padding: 5px;
+}
+
 h1 {
     padding: 8px;
     border-bottom: 5px solid black;
