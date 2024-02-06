@@ -38,6 +38,7 @@ header > nav {
 img {
     float: left;
     padding: 5px;
+    max-width: 100%;
 }
 
 h1 {
